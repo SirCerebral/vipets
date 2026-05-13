@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop — V.I. Pets</title>
+  <meta name="description" content="Shop dog and cat food, aquatics, reptile supplies, small animal habitats and the Holland puppy nursery from V.I. Pets." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="demo-banner" role="note">
+  <span><strong>Concept preview</strong> — every product, price and image is sample data to demonstrate the new shop experience.</span>
+</div>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="brand" href="index.html" aria-label="V.I. Pets home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="40" height="40" fill="none">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+          <path d="M12 24c2-3 4-5 8-5s6 2 8 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="15" cy="16" r="1.8" fill="currentColor"/>
+          <circle cx="25" cy="16" r="1.8" fill="currentColor"/>
+          <circle cx="11" cy="19" r="1.4" fill="currentColor"/>
+          <circle cx="29" cy="19" r="1.4" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">V.I. Pets</span>
+        <span class="brand-sub">Shop</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="shop.html">Shop</a>
+      <a href="#nursery">Puppy Nursery</a>
+      <a href="about.html">Our Story</a>
+      <a href="index.html#locations">Locations</a>
+      <a href="index.html#vip">VIP Card</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="icon-btn" type="button" id="cart-toggle" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-count" id="cart-count" data-empty="true">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" style="padding-block:var(--space-16)">
+  <div class="container-wide">
+    <div class="hero-eyebrow">Shop V.I. Pets</div>
+    <h1 style="max-width:18ch">Everything we'd put in our own house.</h1>
+    <p class="hero-lead" style="max-width:60ch">Locally stocked. VIP price shown for members. Pick up in 2 hours or ship anywhere in the lower 48.</p>
+  </div>
+</section>
+
+<!-- Dogs -->
+<section id="dogs" class="shop-section">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">Department</div>
+      <h2>Dogs</h2>
+    </div>
+    <div class="products-grid">
+
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/product-dogfood.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-tag">Best seller</div>
+          <div class="product-brand">Fromm Family</div>
+          <h3 class="product-name">Gold Adult Dry Dog Food — 33 lb</h3>
+          <div class="product-fulfillment">In stock · Holland, Cutlerville</div>
+          <div class="product-foot">
+            <span class="product-price">$68.99</span>
+            <button class="btn btn-primary" data-add="dog-fromm-gold-33" data-name="Fromm Gold Adult 33 lb" data-brand="Fromm Family" data-price="68.99" data-swatch="linear-gradient(135deg,#c8a472,#8b6535)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#a64a10,#5c2806)"></div>
+        <div class="product-body">
+          <div class="product-tag">VIP price</div>
+          <div class="product-brand">Earthborn Holistic</div>
+          <h3 class="product-name">Primitive Natural Grain-Free — 28 lb</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$74.99</span>
+            <button class="btn btn-primary" data-add="dog-earthborn-prim" data-name="Earthborn Primitive 28 lb" data-brand="Earthborn Holistic" data-price="74.99" data-swatch="linear-gradient(135deg,#a64a10,#5c2806)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#1d4f8c,#102c52)"></div>
+        <div class="product-body">
+          <div class="product-brand">Bil-Jac</div>
+          <h3 class="product-name">Liver Training Treats — 10 oz</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$9.49</span>
+            <button class="btn btn-primary" data-add="dog-biljac-liver" data-name="Bil-Jac Liver Treats 10 oz" data-brand="Bil-Jac" data-price="9.49" data-swatch="linear-gradient(135deg,#1d4f8c,#102c52)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/product-toy.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-tag">New</div>
+          <div class="product-brand">Kong</div>
+          <h3 class="product-name">Classic Rubber Toy — Large</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$14.99</span>
+            <button class="btn btn-primary" data-add="dog-kong-large" data-name="Kong Classic Large" data-brand="Kong" data-price="14.99" data-swatch="linear-gradient(135deg,#d4ddec,#1d4f8c)">Add</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Cats -->
+<section id="cats" class="shop-section" style="background:var(--color-surface-offset)">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">Department</div>
+      <h2>Cats</h2>
+    </div>
+    <div class="products-grid">
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/product-catfood.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-brand">Stella & Chewy's</div>
+          <h3 class="product-name">Freeze-Dried Raw Dinner Morsels — 9 oz</h3>
+          <div class="product-fulfillment">In stock · Holland, Plainfield</div>
+          <div class="product-foot">
+            <span class="product-price">$26.99</span>
+            <button class="btn btn-primary" data-add="cat-stella-fd" data-name="Stella & Chewy's Cat 9 oz" data-brand="Stella & Chewy's" data-price="26.99" data-swatch="linear-gradient(135deg,#9aa8b6,#3d4a5a)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#c45e1a,#7a3309)"></div>
+        <div class="product-body">
+          <div class="product-tag">Best seller</div>
+          <div class="product-brand">Tiki Cat</div>
+          <h3 class="product-name">Luau Wet Food Variety — 12 pack</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$32.49</span>
+            <button class="btn btn-primary" data-add="cat-tiki-luau" data-name="Tiki Cat Luau 12 pk" data-brand="Tiki Cat" data-price="32.49" data-swatch="linear-gradient(135deg,#c45e1a,#7a3309)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#ece4d3,#9aa8b6)"></div>
+        <div class="product-body">
+          <div class="product-brand">Dr. Elsey's</div>
+          <h3 class="product-name">Precious Cat Ultra Clumping Litter — 40 lb</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$24.99</span>
+            <button class="btn btn-primary" data-add="cat-elseys-40" data-name="Dr. Elsey's Litter 40 lb" data-brand="Dr. Elsey's" data-price="24.99" data-swatch="linear-gradient(135deg,#ece4d3,#9aa8b6)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#f0d9c0,#c45e1a)"></div>
+        <div class="product-body">
+          <div class="product-brand">PetSafe</div>
+          <h3 class="product-name">Drinkwell Stainless Pet Fountain — 64 oz</h3>
+          <div class="product-fulfillment">Ships in 2 days</div>
+          <div class="product-foot">
+            <span class="product-price">$59.99</span>
+            <button class="btn btn-primary" data-add="cat-petsafe-fount" data-name="Drinkwell Fountain" data-brand="PetSafe" data-price="59.99" data-swatch="linear-gradient(135deg,#f0d9c0,#c45e1a)">Add</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Aquatics -->
+<section id="aquatics" class="shop-section">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">Department · Plainfield is our fish flagship</div>
+      <h2>Aquatics</h2>
+      <p class="text-muted" style="max-width:60ch">Live fish are <strong>reserve & pickup only</strong> — we'll bag them when you arrive so they travel safely.</p>
+    </div>
+    <div class="products-grid">
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/aquarium.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-tag">Reserve & pickup</div>
+          <div class="product-brand">Live fish · Plainfield</div>
+          <h3 class="product-name">Cardinal Tetra — group of 6</h3>
+          <div class="product-fulfillment">Pickup only · 24 hr hold</div>
+          <div class="product-foot">
+            <span class="product-price">$23.94</span>
+            <button class="btn btn-primary" data-add="aq-cardinal-6" data-name="Cardinal Tetra ×6" data-brand="Live fish" data-price="23.94" data-swatch="linear-gradient(135deg,#1d4f8c,#c45e1a)">Reserve</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/product-watercare.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-brand">Seachem</div>
+          <h3 class="product-name">Prime Water Conditioner — 500 ml</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$17.99</span>
+            <button class="btn btn-primary" data-add="aq-seachem-prime" data-name="Seachem Prime 500ml" data-brand="Seachem" data-price="17.99" data-swatch="linear-gradient(135deg,#437a22,#1d3a0d)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#1d4f8c,#0e2540)"></div>
+        <div class="product-body">
+          <div class="product-tag">VIP price</div>
+          <div class="product-brand">Fluval</div>
+          <h3 class="product-name">407 Performance Canister Filter</h3>
+          <div class="product-fulfillment">Ships in 2 days</div>
+          <div class="product-foot">
+            <span class="product-price">$279.99</span>
+            <button class="btn btn-primary" data-add="aq-fluval-407" data-name="Fluval 407 Canister" data-brand="Fluval" data-price="279.99" data-swatch="linear-gradient(135deg,#1d4f8c,#0e2540)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#c45e1a,#1d4f8c)"></div>
+        <div class="product-body">
+          <div class="product-tag">Reserve & pickup</div>
+          <div class="product-brand">Live coral · Plainfield</div>
+          <h3 class="product-name">Green Star Polyp Frag</h3>
+          <div class="product-fulfillment">Pickup only</div>
+          <div class="product-foot">
+            <span class="product-price">$34.99</span>
+            <button class="btn btn-primary" data-add="aq-gsp-frag" data-name="Green Star Polyp Frag" data-brand="Live coral" data-price="34.99" data-swatch="linear-gradient(135deg,#c45e1a,#1d4f8c)">Reserve</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Reptiles -->
+<section id="reptiles" class="shop-section" style="background:var(--color-surface-offset)">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">Department</div>
+      <h2>Reptiles</h2>
+    </div>
+    <div class="products-grid">
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/reptile.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-tag">Reserve & pickup</div>
+          <div class="product-brand">Live reptile · Plainfield</div>
+          <h3 class="product-name">Juvenile Bearded Dragon</h3>
+          <div class="product-fulfillment">Pickup only · health check included</div>
+          <div class="product-foot">
+            <span class="product-price">$89.99</span>
+            <button class="btn btn-primary" data-add="rep-beardie" data-name="Bearded Dragon (Juvenile)" data-brand="Live reptile" data-price="89.99" data-swatch="linear-gradient(135deg,#c45e1a,#8b6535)">Reserve</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/product-uvb.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-brand">Zoo Med</div>
+          <h3 class="product-name">ReptiSun 10.0 UVB Bulb — 24"</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$36.99</span>
+            <button class="btn btn-primary" data-add="rep-zoomed-uvb24" data-name="ReptiSun 10.0 UVB 24in" data-brand="Zoo Med" data-price="36.99" data-swatch="linear-gradient(135deg,#b07a00,#5c3f00)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#5c2806,#1a2733)"></div>
+        <div class="product-body">
+          <div class="product-brand">Exo Terra</div>
+          <h3 class="product-name">Glass Terrarium — 36"×18"×18"</h3>
+          <div class="product-fulfillment">In stock · Plainfield, Cutlerville</div>
+          <div class="product-foot">
+            <span class="product-price">$229.99</span>
+            <button class="btn btn-primary" data-add="rep-exo-36" data-name="Exo Terra Terrarium 36in" data-brand="Exo Terra" data-price="229.99" data-swatch="linear-gradient(135deg,#5c2806,#1a2733)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#437a22,#8b6535)"></div>
+        <div class="product-body">
+          <div class="product-brand">Live feeders</div>
+          <h3 class="product-name">Dubia Roaches — 100 ct, medium</h3>
+          <div class="product-fulfillment">In stock · pickup or ship</div>
+          <div class="product-foot">
+            <span class="product-price">$18.49</span>
+            <button class="btn btn-primary" data-add="rep-dubia-100" data-name="Dubia Roaches 100 ct" data-brand="Live feeders" data-price="18.49" data-swatch="linear-gradient(135deg,#437a22,#8b6535)">Add</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Small animals -->
+<section id="small-animals" class="shop-section">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">Department</div>
+      <h2>Small animals</h2>
+    </div>
+    <div class="products-grid">
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/small-animal.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-tag">Reserve & pickup</div>
+          <div class="product-brand">Live small animal</div>
+          <h3 class="product-name">Holland Lop Rabbit</h3>
+          <div class="product-fulfillment">Pickup only · ages 8+ weeks</div>
+          <div class="product-foot">
+            <span class="product-price">$79.99</span>
+            <button class="btn btn-primary" data-add="sa-holland-lop" data-name="Holland Lop Rabbit" data-brand="Live small animal" data-price="79.99" data-swatch="linear-gradient(135deg,#f0d9c0,#8b6535)">Reserve</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background-image:url('images/product-hay.png');background-size:cover;background-position:center"></div>
+        <div class="product-body">
+          <div class="product-brand">Oxbow</div>
+          <h3 class="product-name">Western Timothy Hay — 90 oz</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$24.99</span>
+            <button class="btn btn-primary" data-add="sa-oxbow-hay-90" data-name="Oxbow Timothy Hay 90oz" data-brand="Oxbow" data-price="24.99" data-swatch="linear-gradient(135deg,#437a22,#8b6535)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#d4ddec,#5b6b7a)"></div>
+        <div class="product-body">
+          <div class="product-brand">Kaytee</div>
+          <h3 class="product-name">Forti-Diet Pro Health Hamster — 5 lb</h3>
+          <div class="product-fulfillment">In stock · all locations</div>
+          <div class="product-foot">
+            <span class="product-price">$13.99</span>
+            <button class="btn btn-primary" data-add="sa-kaytee-hamster" data-name="Kaytee Hamster Food 5lb" data-brand="Kaytee" data-price="13.99" data-swatch="linear-gradient(135deg,#d4ddec,#5b6b7a)">Add</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image" style="background:linear-gradient(135deg,#1d4f8c,#c45e1a)"></div>
+        <div class="product-body">
+          <div class="product-tag">New</div>
+          <div class="product-brand">Midwest Homes</div>
+          <h3 class="product-name">Critter Nation Double Unit Cage</h3>
+          <div class="product-fulfillment">Ships in 5 days</div>
+          <div class="product-foot">
+            <span class="product-price">$249.99</span>
+            <button class="btn btn-primary" data-add="sa-critter-nation" data-name="Critter Nation Double" data-brand="Midwest Homes" data-price="249.99" data-swatch="linear-gradient(135deg,#1d4f8c,#c45e1a)">Add</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Nursery (Holland) -->
+<section id="nursery" class="nursery-section">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">Holland exclusive</div>
+      <h2>The Puppy Nursery</h2>
+      <p class="text-muted" style="max-width:65ch">Every puppy comes home with a starter pack (food, bedding, toys), a vet-verified health record, our 14-day health guarantee, and lifetime training advice from our team. <strong>Reserve online with a $250 deposit; balance due at pickup.</strong></p>
+    </div>
+    <div class="nursery-grid">
+      <article class="nursery-card">
+        <div class="nursery-card-image"><img src="images/puppy-nursery.png" alt="Cavapoo puppy" loading="lazy" /></div>
+        <div class="nursery-card-body">
+          <h3>Cavapoo · Female</h3>
+          <p class="text-muted">9 weeks · vet-checked · first shots · low-shed</p>
+          <div class="product-foot">
+            <span class="product-price">$1,895</span>
+            <button class="btn btn-primary" data-add="pup-cavapoo-f1" data-name="Cavapoo deposit" data-brand="Puppy nursery" data-price="250" data-swatch="linear-gradient(135deg,#f0d9c0,#c45e1a)">Reserve $250</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="nursery-card">
+        <div class="nursery-card-image"><img src="images/puppy-goldendoodle.png" alt="Mini Goldendoodle puppy" loading="lazy" /></div>
+        <div class="nursery-card-body">
+          <h3>Mini Goldendoodle · Male</h3>
+          <p class="text-muted">10 weeks · F1B · low-shed · family-raised</p>
+          <div class="product-foot">
+            <span class="product-price">$2,150</span>
+            <button class="btn btn-primary" data-add="pup-mini-goldendoodle" data-name="Goldendoodle deposit" data-brand="Puppy nursery" data-price="250" data-swatch="linear-gradient(135deg,#d4ddec,#1d4f8c)">Reserve $250</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="nursery-card">
+        <div class="nursery-card-image"><img src="images/puppy-bernedoodle.png" alt="Bernedoodle puppy" loading="lazy" /></div>
+        <div class="nursery-card-body">
+          <h3>Bernedoodle · Female</h3>
+          <p class="text-muted">8 weeks · tri-color · parents on site</p>
+          <div class="product-foot">
+            <span class="product-price">$2,450</span>
+            <button class="btn btn-primary" data-add="pup-bernedoodle" data-name="Bernedoodle deposit" data-brand="Puppy nursery" data-price="250" data-swatch="linear-gradient(135deg,#c45e1a,#1a2733)">Reserve $250</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="nursery-card">
+        <div class="nursery-card-image" style="background:linear-gradient(135deg,#8b6535,#1a2733)"></div>
+        <div class="nursery-card-body">
+          <h3>Yorkie · Male</h3>
+          <p class="text-muted">11 weeks · vet-checked · weighs 2.1 lb</p>
+          <div class="product-foot">
+            <span class="product-price">$1,650</span>
+            <button class="btn btn-primary" data-add="pup-yorkie" data-name="Yorkie deposit" data-brand="Puppy nursery" data-price="250" data-swatch="linear-gradient(135deg,#8b6535,#1a2733)">Reserve $250</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Policies -->
+<section id="policies" class="shop-section" style="background:var(--color-surface-offset)">
+  <div class="container-wide">
+    <div class="section-head">
+      <div class="section-eyebrow">The fine print</div>
+      <h2>Shipping, returns & live animal policies</h2>
+    </div>
+    <div class="locations-grid">
+      <article class="fp-card">
+        <h3>Shipping</h3>
+        <p>Flat $7.99 for dry goods anywhere in the lower 48. Free over $75. Most orders ship in 1–2 business days.</p>
+      </article>
+      <article class="fp-card">
+        <h3>In-store pickup</h3>
+        <p>Free pickup at any location, ready in 2 hours during open hours. We'll text you when it's ready.</p>
+      </article>
+      <article class="fp-card">
+        <h3>Live animals</h3>
+        <p>Live fish, reptiles, rabbits and puppies are <strong>reserve & pickup only</strong>. We never ship live animals. Every live animal includes our standard health guarantee.</p>
+      </article>
+      <article class="fp-card">
+        <h3>Returns</h3>
+        <p>Unopened dry goods returnable within 30 days with receipt. Food is non-returnable once opened — call us and we'll work it out.</p>
+      </article>
+      <article class="fp-card">
+        <h3>VIP Card</h3>
+        <p>Free to join. 10% off most pet supplies and dog & cat food, every day. Excludes feeder fish, feeder rodents, crickets, live plants and gift cards. Never expires.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container-wide">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand" href="index.html">
+          <span class="brand-text">
+            <span class="brand-name">V.I. Pets</span>
+            <span class="brand-sub">Since 1988 · West Michigan</span>
+          </span>
+        </a>
+        <p class="text-muted" style="margin-top:var(--space-4);max-width:32ch">Your trusted, locally owned pet store.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#dogs">Dogs</a><a href="#cats">Cats</a><a href="#aquatics">Aquatics</a><a href="#reptiles">Reptiles</a><a href="#small-animals">Small animals</a><a href="#nursery">Puppy nursery</a>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <a href="index.html#locations">Holland</a><a href="index.html#locations">Plainfield</a><a href="index.html#locations">Cutlerville</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="mailto:VIPETS01@gmail.com">Contact</a><a href="#policies">Shipping & returns</a><a href="#policies">Live animal policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 1988–2026 V.I. Pets · Family-owned in West Michigan</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Cart drawer + checkout (reused) -->
+<div class="cart-backdrop" id="cart-backdrop" hidden></div>
+<aside class="cart-drawer" id="cart-drawer" aria-hidden="true" aria-label="Shopping cart">
+  <div class="cart-head"><h3>Your cart</h3>
+    <button class="icon-btn" id="cart-close" aria-label="Close cart">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="cart-body" id="cart-body"><div class="cart-empty"><p>Your cart is empty.</p><a href="shop.html" class="btn btn-secondary">Start shopping</a></div></div>
+  <div class="cart-foot" id="cart-foot" hidden>
+    <div class="cart-totals">
+      <div class="summary-line"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="summary-line discount-line"><span>VIP member 10%</span><span id="cart-vip">−$0.00</span></div>
+      <div class="summary-line summary-totals"><span>Total</span><span id="cart-total">$0.00</span></div>
+    </div>
+    <button class="btn btn-primary btn-lg" id="checkout-btn" style="width:100%">Checkout</button>
+  </div>
+</aside>
+
+<div class="checkout-modal" id="checkout-modal" aria-hidden="true">
+  <div class="checkout-step">
+    <div class="checkout-head">
+      <div class="checkout-head-inner">
+        <h2>Checkout</h2>
+        <button class="icon-btn" id="checkout-close" aria-label="Close checkout">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="checkout-grid">
+      <form class="checkout-form" onsubmit="event.preventDefault(); document.getElementById('checkout-complete').showModal();">
+        <div class="co-section">
+          <div class="co-section-head">
+            <span class="co-step">1</span>
+            <h3>How would you like to get it?</h3>
+          </div>
+          <div class="fulfillment-pick">
+            <label class="checkout-fulfillment-pick"><input type="radio" name="fulfillment" value="pickup" checked /><div><strong>In-store pickup</strong><div class="text-muted">Free · ready in 2 hours</div></div></label>
+            <label class="checkout-fulfillment-pick"><input type="radio" name="fulfillment" value="ship" /><div><strong>Ship to me</strong><div class="text-muted">$7.99 flat · dry goods only</div></div></label>
+          </div>
+        </div>
+        <div class="co-section">
+          <div class="co-section-head">
+            <span class="co-step">2</span>
+            <h3>Contact</h3>
+          </div>
+          <div class="field-grid">
+            <div class="field"><label for="co-email">Email</label><input id="co-email" type="email" required placeholder="you@example.com" /></div>
+            <div class="field"><label for="co-phone">Phone</label><input id="co-phone" type="tel" required placeholder="(616) 555-0188" /></div>
+          </div>
+        </div>
+        <div class="co-section">
+          <div class="co-section-head">
+            <span class="co-step">3</span>
+            <h3>Address</h3>
+          </div>
+          <div class="field-grid">
+            <div class="field" style="grid-column:1/-1"><label for="co-name">Full name</label><input id="co-name" type="text" required /></div>
+            <div class="field" style="grid-column:1/-1"><label for="co-addr">Street address</label><input id="co-addr" type="text" required /></div>
+            <div class="field"><label for="co-city">City</label><input id="co-city" type="text" required value="Holland" /></div>
+            <div class="field"><label for="co-zip">ZIP</label><input id="co-zip" type="text" required pattern="[0-9]{5}" placeholder="49424" /></div>
+          </div>
+        </div>
+        <div class="co-section">
+          <div class="co-section-head">
+            <span class="co-step">4</span>
+            <h3>Payment</h3>
+          </div>
+          <div class="pay-buttons">
+            <button type="button" class="pay-btn pay-apple" aria-label="Pay with Apple Pay">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M17.5 12.5c0-2 1.6-2.9 1.7-3-1-1.4-2.5-1.6-3-1.6-1.3-.1-2.5.8-3.1.8-.7 0-1.6-.7-2.7-.7-1.4 0-2.7.8-3.4 2-1.5 2.5-.4 6.2 1 8.3.7 1 1.6 2.1 2.7 2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.7.7 2.8.7 1.2 0 1.9-1 2.6-2 .9-1.1 1.2-2.3 1.3-2.4-.1 0-2.5-1-2.7-3.4zM15.3 6.6c.6-.7 1-1.7.9-2.7-.8 0-1.9.5-2.5 1.3-.5.6-1 1.7-.9 2.6.9.1 1.8-.5 2.5-1.2z"/></svg>
+              <span>Pay</span>
+            </button>
+            <button type="button" class="pay-btn pay-google" aria-label="Pay with Google Pay">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="#4285F4" d="M21.3 12.2c0-.7-.1-1.3-.2-1.9h-9v3.7h5.1c-.2 1.2-.9 2.2-1.9 2.9v2.4h3.1c1.8-1.7 2.9-4.2 2.9-7.1z"/><path fill="#34A853" d="M12.1 21.5c2.6 0 4.8-.9 6.4-2.3l-3.1-2.4c-.9.6-2 .9-3.3.9-2.5 0-4.6-1.7-5.4-4H3.5v2.5c1.6 3.2 4.9 5.3 8.6 5.3z"/><path fill="#FBBC04" d="M6.7 13.7c-.2-.6-.3-1.2-.3-1.9 0-.7.1-1.3.3-1.9V7.4H3.5c-.7 1.4-1.1 2.9-1.1 4.4 0 1.5.4 3 1.1 4.4l3.2-2.5z"/><path fill="#EA4335" d="M12.1 6c1.4 0 2.7.5 3.7 1.4l2.8-2.8C16.9 3.1 14.7 2.2 12.1 2.2 8.4 2.2 5.1 4.3 3.5 7.4l3.2 2.5c.8-2.3 2.9-3.9 5.4-3.9z"/></svg>
+              <span>Pay</span>
+            </button>
+            <button type="button" class="pay-btn pay-shop" aria-label="Pay with Shop Pay">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm3.7 9.2h-2.4v4.4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4.4H8.3c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h3.2V7c0-.5.4-.9.9-.9s.9.4.9.9v2.4h2.4c.5 0 .9.4.9.9s-.4.9-.9.9z"/></svg>
+              <span>Shop Pay</span>
+            </button>
+          </div>
+          <div class="pay-row"><span>or pay by card</span></div>
+          <div class="field-grid">
+            <div class="field" style="grid-column:1/-1"><label for="co-card">Card number</label><input id="co-card" type="text" placeholder="1234 5678 9012 3456" required autocomplete="cc-number" /></div>
+            <div class="field"><label for="co-exp">Expiration</label><input id="co-exp" type="text" placeholder="MM / YY" required autocomplete="cc-exp" /></div>
+            <div class="field"><label for="co-cvc">CVC</label><input id="co-cvc" type="text" placeholder="123" required autocomplete="cc-csc" /></div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Place order</button>
+      </form>
+      <aside class="order-summary">
+        <h4>Order summary</h4>
+        <div id="checkout-lines"></div>
+        <div class="summary-line"><span>Subtotal</span><span id="co-subtotal">$0.00</span></div>
+        <div class="summary-line discount-line"><span>VIP member 10%</span><span id="co-vip">−$0.00</span></div>
+        <div class="summary-line"><span>Pickup</span><span>Free</span></div>
+        <div class="summary-line summary-totals"><span>Total</span><span id="co-total">$0.00</span></div>
+        <p class="text-muted" style="font-size:var(--text-xs);margin-top:var(--space-4)">Concept preview. No card will be charged.</p>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<dialog id="checkout-complete" style="border:0;border-radius:var(--radius-xl);padding:var(--space-12);max-width:480px;background:var(--color-surface);color:var(--color-text)">
+  <h2 style="font-family:var(--font-display);margin-top:0">Order placed.</h2>
+  <p>Concept preview — no charge was made. In production this triggers Shopify, sends a confirmation email, and notifies the Holland team.</p>
+  <button class="btn btn-primary" onclick="this.closest('dialog').close(); document.getElementById('checkout-modal').setAttribute('aria-hidden','true');">Got it</button>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="transform:translate(-${scrollX}px,-${scrollY}px);transform-origin:top left">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
